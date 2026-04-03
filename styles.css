@@ -189,7 +189,8 @@ img {
 .nav-logo-img {
     height: 55px;
     width: auto;
-    filter: brightness(0) invert(1);
+    filter: invert(1) brightness(2);
+    mix-blend-mode: lighten;
     transition: height var(--transition);
 }
 
@@ -736,7 +737,8 @@ img {
 .footer-logo-img {
     height: 60px;
     width: auto;
-    filter: brightness(0) invert(1);
+    filter: invert(1) brightness(2);
+    mix-blend-mode: lighten;
     opacity: 0.9;
 }
 
